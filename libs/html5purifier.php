@@ -15,6 +15,8 @@ function load_html5purifier() {
   }
   $config->set('HTML.Doctype', 'HTML 4.01 Transitional');
 
+  $config->set('Test.ForceNoIconv', true);
+
   $config->set('CSS.AllowTricky', true);
   $config->set('HTML.EnableAttrID', true);
 
